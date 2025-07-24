@@ -27,7 +27,7 @@ userBirthMonth = userBirthMonth.toLowerCase();
 userBirthMonth = userBirthMonth.slice(0,3);
 
 let BirthMonth = false ;
-let p = document.getElementById("text");
+let p = document.getElementById("text")
 
 for (i = 0 ; i < discountedMonth.length; i++){
     if(userBirthMonth === discountedMonth[i]){
