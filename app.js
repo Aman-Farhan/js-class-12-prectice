@@ -24,7 +24,7 @@ let discountedMonth = ["jan","feb","mar","apr","may","jun","july"];
 let userBirthMonth = prompt("Enter Your Month");
 
 userBirthMonth = userBirthMonth.toLowerCase();
-userBirthMonth = userBirthMonth.slice(0,3)
+userBirthMonth = userBirthMonth.slice(0,3);
 
 let BirthMonth = false ;
 let p = document.getElementById("text")
