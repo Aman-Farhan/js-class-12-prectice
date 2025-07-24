@@ -31,7 +31,7 @@ let p = document.getElementById("text")
 
 for (i = 0 ; i < discountedMonth.length; i++){
     if(userBirthMonth === discountedMonth[i]){
-        BirthMonth = true;
+        BirthMonth = true
     }
 }
 
